@@ -20,12 +20,66 @@ namespace MailMerge.Controllers
         [HttpGet]
         [Route("list")]
         [Produces("application/json")]
-        public IEnumerable<string> ListTemplates()
+        public IActionResult ListTemplates()
         {
             string[] aux = Directory.GetFiles("Templates", "*.*", SearchOption.AllDirectories);
 
             List<string> result = new List<string>(aux);
-            return result;
+            return Ok(result);
+        }
+
+        [HttpGet]
+        [Route("fetch/{template}")]
+        [Produces("application/json")]
+        public IActionResult GetTemplate ([FromRoute] string template)
+        {
+            try
+            {
+                string text = System.IO.File.ReadAllText(@"Templates\" + template);
+                List<string> tokens = new List<string>();
+                bool processingToken = false;
+                string token = "";
+                char prevChar = '\0';
+                foreach (char c in text)
+                {
+                    if (c == '{')
+                    {
+                        if (prevChar == '{')
+                        {
+                            processingToken = true;
+                            prevChar = '\0';
+                        }
+                        else
+                        {
+                            prevChar = '{';
+                        }
+                    }
+                    else if (c == '}')
+                    {
+                        prevChar = '\0';
+                        if (processingToken)
+                        {
+                            processingToken = false;
+                            tokens.Add(token);
+                            token = "";
+                        }
+                    }
+                    else
+                    {
+                        prevChar = '\0';
+                        if (processingToken)
+                        {
+                            token += c;
+                        }
+                    }                    
+                }
+                return Ok(tokens);
+            }
+            catch
+            {
+                return StatusCode(500, "Error reading template");
+            }
+
         }
     }
 }
