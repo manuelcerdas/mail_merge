@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "G50l1sqDywSIhlaB2z07ZEtSfBl04NyAiFj9EzDuMRf/bQt6zOawJQvbgHTFEB9cVj/njXsft0cclz8D01tK3w==",
+  "dgSpecHash": "BPB+PnATCI49F0w/tFW1Eym8Sr6fpHn7hfyKHXu0f1PQKyb7ebiP3GCUdE+wFsbFivhMjj4RWSWqyJ12X0XRDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\m.cerdas.salazar\\source\\mail_merge\\MailMerge\\MailMerge.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\d.quesada.arroyo\\Source\\Repos\\mail_merge\\MailMerge\\MailMerge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\d.quesada.arroyo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\d.quesada.arroyo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\d.quesada.arroyo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\d.quesada.arroyo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
   "logs": []
 }

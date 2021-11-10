@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MailMerge/obj/Debug/net5.0/MailMerge.csprojAssemblyReference.cache
+/.vs/mail_merge/v16/.suo
+/.vs

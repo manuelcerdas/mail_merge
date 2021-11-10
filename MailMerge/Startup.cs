@@ -8,13 +8,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MailMerge.Extension;
 
 namespace MailMerge
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        private readonly IWebHostEnvironment _environment;
+
+        public Startup(IConfiguration configuration, IWebHostEnvironment environment)
         {
+            _environment = environment;
             Configuration = configuration;
         }
 
@@ -24,6 +28,7 @@ namespace MailMerge
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddSwaggerGenerate(_environment, Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,6 +45,7 @@ namespace MailMerge
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
+            app.UseCustomSwagger(_environment, Configuration);
             app.UseStaticFiles();
 
             app.UseRouting();
