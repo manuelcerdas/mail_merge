@@ -18,7 +18,6 @@ C:\Users\m.cerdas.salazar\source\mail_merge\MailMerge\bin\Debug\net5.0\MailMerge
 C:\Users\m.cerdas.salazar\source\mail_merge\MailMerge\bin\Debug\net5.0\MailMerge.Views.dll
 C:\Users\m.cerdas.salazar\source\mail_merge\MailMerge\bin\Debug\net5.0\MailMerge.Views.pdb
 C:\Users\m.cerdas.salazar\source\mail_merge\MailMerge\obj\Debug\net5.0\staticwebassets\MailMerge.StaticWebAssets.Manifest.cache
-C:\Users\m.cerdas.salazar\source\mail_merge\MailMerge\obj\Debug\net5.0\staticwebassets\MailMerge.StaticWebAssets.xml
 C:\Users\m.cerdas.salazar\source\mail_merge\MailMerge\obj\Debug\net5.0\scopedcss\bundle\MailMerge.styles.css
 C:\Users\m.cerdas.salazar\source\mail_merge\MailMerge\obj\Debug\net5.0\MailMerge.TagHelpers.input.cache
 C:\Users\m.cerdas.salazar\source\mail_merge\MailMerge\obj\Debug\net5.0\MailMerge.TagHelpers.output.cache
@@ -83,3 +82,9 @@ C:\Users\d.quesada.arroyo\Source\Repos\mail_merge\MailMerge\bin\Debug\net5.0\Swa
 C:\Users\d.quesada.arroyo\Source\Repos\mail_merge\MailMerge\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\d.quesada.arroyo\Source\Repos\mail_merge\MailMerge\obj\Debug\net5.0\MailMerge.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\d.quesada.arroyo\Source\Repos\mail_merge\MailMerge\bin\Debug\net5.0\MailMerge.xml
+C:\Users\m.cerdas.salazar\source\mail_merge\MailMerge\bin\Debug\net5.0\MailMerge.xml
+C:\Users\m.cerdas.salazar\source\mail_merge\MailMerge\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\m.cerdas.salazar\source\mail_merge\MailMerge\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\m.cerdas.salazar\source\mail_merge\MailMerge\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\m.cerdas.salazar\source\mail_merge\MailMerge\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\m.cerdas.salazar\source\mail_merge\MailMerge\obj\Debug\net5.0\MailMerge.MvcApplicationPartsAssemblyInfo.cs

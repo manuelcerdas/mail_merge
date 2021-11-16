@@ -1,24 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\d.quesada.arroyo\\Source\\Repos\\mail_merge\\MailMerge\\MailMerge.csproj": {}
+    "C:\\Users\\m.cerdas.salazar\\source\\mail_merge\\MailMerge\\MailMerge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\d.quesada.arroyo\\Source\\Repos\\mail_merge\\MailMerge\\MailMerge.csproj": {
+    "C:\\Users\\m.cerdas.salazar\\source\\mail_merge\\MailMerge\\MailMerge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\d.quesada.arroyo\\Source\\Repos\\mail_merge\\MailMerge\\MailMerge.csproj",
+        "projectUniqueName": "C:\\Users\\m.cerdas.salazar\\source\\mail_merge\\MailMerge\\MailMerge.csproj",
         "projectName": "MailMerge",
-        "projectPath": "C:\\Users\\d.quesada.arroyo\\Source\\Repos\\mail_merge\\MailMerge\\MailMerge.csproj",
-        "packagesPath": "C:\\Users\\d.quesada.arroyo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\d.quesada.arroyo\\Source\\Repos\\mail_merge\\MailMerge\\obj\\",
+        "projectPath": "C:\\Users\\m.cerdas.salazar\\source\\mail_merge\\MailMerge\\MailMerge.csproj",
+        "packagesPath": "C:\\Users\\m.cerdas.salazar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\m.cerdas.salazar\\source\\mail_merge\\MailMerge\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\d.quesada.arroyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\m.cerdas.salazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -74,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
