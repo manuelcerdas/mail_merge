@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWBkx3jCWU0K/CpEo46Tn8QAAAAACAAAAAAADZgAAwAAAABAAAAABPlJCjq3PVb05IL1u/JBPAAAAAASAAACgAAAAEAAAAGjrNhP3bDc2o9B429JLUbKAAAAA7Iqy+0rsCWMDrROVFfFYX49jzvPNtCSR/2PrHCt4ABbFIdNjehwvKEgf3HtsLHftvw890eiEIIGQGAidSOFAV6mSaHS2r1z+E5sr1xUa/H4SzJiDFfnMJ124UpmPA0yaB60MWwS2KmjuZT/rkjlqjJRpLxGLsb0wysk3gaohNR8UAAAAA/o1I+LryO09tyknYoWwWsWyGHQ=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://waws-prod-dm1-231.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AppData/MailMerge.xml">
+      <publishTime>11/18/2021 14:40:13</publishTime>
+    </File>
+    <File Include="appsettings.Development.json">
+      <publishTime>11/10/2021 13:50:01</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>11/18/2021 14:09:52</publishTime>
+    </File>
+    <File Include="appsettings.Production.json">
+      <publishTime>11/18/2021 14:08:45</publishTime>
+    </File>
+    <File Include="MailMerge.xml">
+      <publishTime>11/18/2021 14:40:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -23,10 +23,10 @@ namespace MailMerge.Extension
 
             var ss = section.Get<SwaggerSettings>();
 
-            if (environment.EnvironmentName == "Production")
-            {
-                return;
-            }
+            //if (environment.EnvironmentName == "Production")
+            //{
+            //    return;
+            //}
 
             services.AddSwaggerGen(c =>
             {

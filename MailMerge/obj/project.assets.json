@@ -154,11 +154,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\d.quesada.arroyo\\Source\\Repos\\mail_merge\\MailMerge\\MailMerge.csproj",
+      "projectUniqueName": "C:\\Users\\d.quesada.arroyo\\source\\repos\\mail_merge\\MailMerge\\MailMerge.csproj",
       "projectName": "MailMerge",
-      "projectPath": "C:\\Users\\d.quesada.arroyo\\Source\\Repos\\mail_merge\\MailMerge\\MailMerge.csproj",
+      "projectPath": "C:\\Users\\d.quesada.arroyo\\source\\repos\\mail_merge\\MailMerge\\MailMerge.csproj",
       "packagesPath": "C:\\Users\\d.quesada.arroyo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\d.quesada.arroyo\\Source\\Repos\\mail_merge\\MailMerge\\obj\\",
+      "outputPath": "C:\\Users\\d.quesada.arroyo\\source\\repos\\mail_merge\\MailMerge\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -221,7 +221,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

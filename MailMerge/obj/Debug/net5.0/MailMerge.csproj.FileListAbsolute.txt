@@ -57,7 +57,6 @@ C:\Users\d.quesada.arroyo\Source\Repos\mail_merge\MailMerge\obj\Debug\net5.0\Mai
 C:\Users\d.quesada.arroyo\Source\Repos\mail_merge\MailMerge\obj\Debug\net5.0\MailMerge.RazorAssemblyInfo.cache
 C:\Users\d.quesada.arroyo\Source\Repos\mail_merge\MailMerge\obj\Debug\net5.0\MailMerge.RazorAssemblyInfo.cs
 C:\Users\d.quesada.arroyo\Source\Repos\mail_merge\MailMerge\obj\Debug\net5.0\staticwebassets\MailMerge.StaticWebAssets.Manifest.cache
-C:\Users\d.quesada.arroyo\Source\Repos\mail_merge\MailMerge\obj\Debug\net5.0\staticwebassets\MailMerge.StaticWebAssets.xml
 C:\Users\d.quesada.arroyo\Source\Repos\mail_merge\MailMerge\obj\Debug\net5.0\scopedcss\bundle\MailMerge.styles.css
 C:\Users\d.quesada.arroyo\Source\Repos\mail_merge\MailMerge\obj\Debug\net5.0\MailMerge.TagHelpers.input.cache
 C:\Users\d.quesada.arroyo\Source\Repos\mail_merge\MailMerge\obj\Debug\net5.0\MailMerge.TagHelpers.output.cache
@@ -83,3 +82,4 @@ C:\Users\d.quesada.arroyo\Source\Repos\mail_merge\MailMerge\bin\Debug\net5.0\Swa
 C:\Users\d.quesada.arroyo\Source\Repos\mail_merge\MailMerge\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\d.quesada.arroyo\Source\Repos\mail_merge\MailMerge\obj\Debug\net5.0\MailMerge.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\d.quesada.arroyo\Source\Repos\mail_merge\MailMerge\bin\Debug\net5.0\MailMerge.xml
+C:\Users\d.quesada.arroyo\source\repos\mail_merge\MailMerge\bin\Debug\net5.0\appsettings.Production.json

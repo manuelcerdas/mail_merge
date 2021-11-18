@@ -15,10 +15,10 @@ namespace MailMerge.Extension
         public static void UseCustomSwagger(this IApplicationBuilder app, IWebHostEnvironment environment, IConfiguration Configuration)
         {
             var endpoint = Configuration.GetValue<string>("SwaggerSettings:EndPoint");
-            if (environment.EnvironmentName == "Production" || string.IsNullOrEmpty(endpoint))
-            {
-                return;
-            }
+            //if (environment.EnvironmentName == "Production" || string.IsNullOrEmpty(endpoint))
+            //{
+            //    return;
+            //}
             var version = GetProductVersion();
             app.UseSwagger();
             app.UseSwaggerUI(o =>
