@@ -17,14 +17,14 @@ namespace MailMerge.Controllers
         [Produces("application/json")]
         public IActionResult ListTemplates()
         {
-            string[] aux = Directory.GetFiles("Templates", "*.*", SearchOption.AllDirectories);
+            string[] aux = Directory.GetFiles("Templates", "*.*", SearchOption.TopDirectoryOnly);
 
             List<string> result = new List<string>(aux);
             return Ok(result);
         }
 
         [HttpGet]
-        [Route("/fetch/{template}")]
+        [Route("/getfields/{template}")]
         [Produces("application/json")]
         public IActionResult GetTemplate([FromRoute] string template)
         {
@@ -69,6 +69,24 @@ namespace MailMerge.Controllers
                     }
                 }
                 return Ok(tokens);
+            }
+            catch
+            {
+                return StatusCode(500, "Error reading template");
+            }
+
+        }
+
+        [HttpGet]
+        [Route("/getcode/{template}")]
+        [Produces("application/json")]
+        public IActionResult GetCode([FromRoute] string template)
+        {
+            try
+            {
+                string text = System.IO.File.ReadAllText(@"Templates\" + template);
+                                               
+                return Ok(text);
             }
             catch
             {

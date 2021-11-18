@@ -148,24 +148,36 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\d.quesada.arroyo\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\m.cerdas.salazar\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\d.quesada.arroyo\\source\\repos\\mail_merge\\MailMerge\\MailMerge.csproj",
       "projectName": "MailMerge",
       "projectPath": "C:\\Users\\d.quesada.arroyo\\source\\repos\\mail_merge\\MailMerge\\MailMerge.csproj",
       "packagesPath": "C:\\Users\\d.quesada.arroyo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\d.quesada.arroyo\\source\\repos\\mail_merge\\MailMerge\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\m.cerdas.salazar\\source\\mail_merge\\MailMerge\\MailMerge.csproj",
+      "projectName": "MailMerge",
+      "projectPath": "C:\\Users\\m.cerdas.salazar\\source\\mail_merge\\MailMerge\\MailMerge.csproj",
+      "packagesPath": "C:\\Users\\m.cerdas.salazar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\m.cerdas.salazar\\source\\mail_merge\\MailMerge\\obj\\",
+>>>>>>> b61ceb9c52cbf289813dfae05f2878d962a68806
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\d.quesada.arroyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\m.cerdas.salazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
